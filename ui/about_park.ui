@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>aboutParkWindow</class>
+ <widget class="QMainWindow" name="aboutParkWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WaterWorld</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(167, 191, 238);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>503</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="top_layout">
+       <property name="spacing">
+        <number>50</number>
+       </property>
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>20</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="back_top_but">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #05668D;
+font: 15pt  &quot;Stencil&quot;;
+color: white;</string>
+         </property>
+         <property name="text">
+          <string>&lt; BACK</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="top_label">
+         <property name="minimumSize">
+          <size>
+           <width>331</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>331</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(5, 102, 141);
+font: 36pt &quot;Stencil&quot;;
+color: white;</string>
+         </property>
+         <property name="text">
+          <string>WATER WORLD</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="main_image">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>500</width>
+         <height>350</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>500</width>
+         <height>350</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../Users/nikit/Downloads/39.png</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="bottom_block_layout">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>5</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>5</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="location_layout">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="location_label">
+           <property name="minimumSize">
+            <size>
+             <width>160</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(254, 147, 140);
+font: 20pt  &quot;Stencil&quot;;
+color: white;
+padding: 10px;</string>
+           </property>
+           <property name="text">
+            <string>LOCATION</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="location_info">
+           <property name="minimumSize">
+            <size>
+             <width>280</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(254, 147, 140);
+font: 15pt  &quot;Stencil&quot;;
+color: white;
+padding: 10px;</string>
+           </property>
+           <property name="text">
+            <string>text</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="website_layout">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="website_label">
+           <property name="minimumSize">
+            <size>
+             <width>160</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(254, 147, 140);
+font: 20pt  &quot;Stencil&quot;;
+color: white;
+padding: 10px;</string>
+           </property>
+           <property name="text">
+            <string>WEB-SITE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="website_info">
+           <property name="minimumSize">
+            <size>
+             <width>280</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(254, 147, 140);
+font: 15pt  &quot;Stencil&quot;;
+color: white;
+padding: 10px;</string>
+           </property>
+           <property name="text">
+            <string>text</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="phone_layout">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="phone_label">
+           <property name="minimumSize">
+            <size>
+             <width>160</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(254, 147, 140);
+font: 20pt  &quot;Stencil&quot;;
+color: white;
+padding-left: 25px;</string>
+           </property>
+           <property name="text">
+            <string>PHONE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="phone_info">
+           <property name="minimumSize">
+            <size>
+             <width>280</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(254, 147, 140);
+font: 15pt  &quot;Stencil&quot;;
+color: white;
+padding: 10px;</string>
+           </property>
+           <property name="text">
+            <string>text</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="time_layout">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="time_label">
+           <property name="minimumSize">
+            <size>
+             <width>160</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(254, 147, 140);
+font: 20pt  &quot;Stencil&quot;;
+color: white;
+padding-left: 40px;</string>
+           </property>
+           <property name="text">
+            <string>TIME</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="time_info">
+           <property name="minimumSize">
+            <size>
+             <width>280</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(254, 147, 140);
+font: 15pt  &quot;Stencil&quot;;
+color: white;
+padding: 10px;</string>
+           </property>
+           <property name="text">
+            <string>text</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="description_info_label">
+         <property name="minimumSize">
+          <size>
+           <width>450</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(254, 147, 140);
+font: 10pt  &quot;Stencil&quot;;
+color: white;
+padding: 10px;</string>
+         </property>
+         <property name="text">
+          <string>text</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
